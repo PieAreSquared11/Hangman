@@ -8,7 +8,7 @@ Hangman is a simple command-line game implemented in PowerShell. The player trie
 
 - ASCII art display representing the hangman and game state.
 - Tracks chosen letters and displays which letters are in the word.
-- Handles illegal characters to prevent invalid inputs.
+- Handles inputs to prevent multiple character inputs. Non-letter Characters are allowed, but this will soon be fixed.
 - No retry function available yet due to technical issues.
 
 ## Installation
