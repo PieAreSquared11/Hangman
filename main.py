@@ -38,7 +38,7 @@ class Main:
             state = StateManager(player_1, "2 player", word, player_2=player_2)
             state = state.two_player()
 
-            input("Press Enter to close the window . . . ")
+            input("Press Enter to close the game . . . ")
         elif self.game_mode == "1":
             player_1 = input("Who's player 1? ")
 
@@ -47,6 +47,6 @@ class Main:
             state = StateManager(player_1, "1 player", word)
             state.one_player()
 
-            input("Press Enter to close the window . . . ")
+            input("Press Enter to close the game . . . ")
     
 main = Main()
